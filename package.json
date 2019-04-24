@@ -1,0 +1,19 @@
+{
+  "name": "next-train",
+  "version": "1.0.0",
+  "description": "Find the next train from station-to-station with the handy website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Jake Causier",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.3.1",
+    "express": "^4.16.4",
+    "jquery": "^3.4.0",
+    "popper.js": "^1.15.0",
+    "request": "^2.88.0"
+  }
+}

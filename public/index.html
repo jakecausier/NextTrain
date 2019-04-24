@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NextTrain</title>
+	<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+	<script src="public/request.js"></script>
+</head>
+
+<body>
+
+	<h1>This is the website index...</h1>
+
+	<form method="POST" action="/search">
+		<div>
+			<label for="station-from">
+				Going from...
+			</label>
+			<select id="station-from" name="from">
+			</select>
+		</div>
+
+		<div>
+			<label for="station-to">
+				Going to...
+			</label>
+			<select id="station-to" name="to">
+			</select>
+		</div>
+
+		<button id="submit" type="submit">Test it</button>
+	</form>
+
+</body>
+</html>
+
